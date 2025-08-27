@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito sans", sans-serif;
+}
+
+header {
+  background-color: #fef9e7;
+  width: 100%;
+  min-height: 40px;
+}
+header,
+section,
+footer {
+  padding: 30px;
+}
+.container {
+  width: 1280px;
+  margin: 0 auto;
+}
+#logo {
+  float: left;
+}
+
+#menu-principal {
+  float: right;
+  margin-top: 10px;
+}
+
+#menu-principal ul li {
+  display: inline;
+  margin-right: 20px;
+}
+#menu-principal ul li a {
+  color: #554023;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 5px 10px;
+}
+#menu-principal ul li a:hover {
+  border-bottom: solid #554023 1px;
+  transition: all 0.3s ease;
+}
+
+footer {
+  background-color: #e8a200;
+  width: 100%;
+  min-height: 40px;
+  clear: both;
+}
+footer p {
+  float: left;
+}
+#midias-sociais {
+  float: right;
+}
+
+#midias-sociais img:hover {
+  transform: rotate(15deg);
+  transition: all 0.3s;
+}
+#midias-sociais a {
+  text-decoration: none;
+}
+
+#banner {
+  width: 100%;
+  height: 300px;
+  background-image: url(../mundopet/imagens-aua4/img-banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#banner h1 {
+  text-align: left;
+  width: 250px;
+  margin-top: 150px;
+}
+
+h1 {
+  text-align: center;
+  color: #554023;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.box-depoimento {
+  width: 600px;
+  height: 155px;
+  float: left;
+  padding: 20px 0;
+  margin: 20px;
+  box-shadow: 6px 6px 6px -5px #ccc;
+}
+.box-depoimento p,
+.box-depoimento img {
+  float: left;
+}
+.box-depoimento p {
+  width: 370px;
+  margin-right: 20px;
+}
+.box-depoimento p span {
+  font-weight: bold;
+}
+
+#dicas {
+  clear: both;
+}
+#box-dicas-imagem {
+  float: left;
+}
+#box-dicas-texto {
+  float: left;
+  margin-left: 20px;
+  margin-top: 60px;
+  width: 500px;
+}
+#box-dicas-texto ul {
+  list-style-position: inside;
+}
+#box-dicas-texto h3 {
+  color: #2e210f;
+  margin-top: 30px;
+}
+#box-dicas-texto li {
+  color: #2e210f;
+  line-height: 2em;
+}
+
+#newsletter {
+  clear: both;
+  width: 100%;
+  background-color: #2e210f;
+  height: 200px;
+}
+#newsletter h1 {
+  color: #fff;
+}
+#newsletter form {
+  width: 720px;
+  background-color: #ccc;
+  margin: auto;
+}
+#campo {
+  width: 500px;
+  padding: 12px;
+}
+#campo:focus {
+  outline: none;
+  border: 1px solid #e8a200;
+}
+#botao {
+  background-color: #e8a200;
+  padding: 10px 30px;
+  color: #fff;
+  border: solid 2px #e8a200;
+  font-weight: bold;
+  font-size: 14px;
+}
+#botao:hover {
+  background-color: #2e210f;
+  border: solid 2px #e8a200;
+  transition: all linear 0.5s;
+}
+#saiba-mais {
+  background-color: #e8a200;
+  height: 350px;
+}
+#saiba-mais p {
+  text-align: center;
+  font-weight: bold;
+  color: #2e210f;
+}
+.item-produto {
+  width: 295px;
+  float: left;
+  background-color: #554023;
+  min-height: 350px;
+  margin: 10px;
+  border: solid 2px #554023;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+.item-produto img {
+  width: 100%;
+}
+.item-produto h3 {
+  color: #e8a200;
+}
+.item-produto p {
+  color: #fff;
+}
+#contato p {
+  width: 800px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 30px;
+}
+#contato form{
+    width: 550px;
+    margin: auto;
+
+}
+#contato form label, #contato form input{
+    display: block;
+    color: #2e210f;
+}
+#contato form input, #contato form textarea{
+    width: 90%;
+    padding: 5px;
+
+}
+#contato form label{
+    margin-top: 20px;
+}
+#contato form #enviar{
+    width: 150px;
+    padding: 6px 30px;
+    font-weight: bold;
+    color: #2e210f;
+    font-size: 18px;
+    background-color: #e8a200;
+    border: solid 2px #2e210f;
+    border-radius: 30px;
+    float: right;
+    margin-right: 40px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+#contato form #enviar:hover{
+    background-color: #2e210f;
+    color: #e8a200;
+    transition: all linear 0.3s;
+
+}
+#sobre #texto{
+    width: 500px;
+    float: left;
+    margin-right: 20px;
+}
+#sobre p{
+    margin-top: ;
+}
+.marrom{
+    color: #2e210f;
+}
+.amarelo{
+    color: #e8a200;
+}
+
+
+

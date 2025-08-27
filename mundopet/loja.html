@@ -4,10 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mundo pet - loja</title>
-    <link rel="icon" type= image/x-icon href="imagens-aua4/favicon.png">
+        <link rel="stylesheet" href="estilo.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+        <link rel="icon" type= image/x-icon href="imagens-aua4/favicon.png">
   </head>
   <body>
     <header>
+      <div class="conatiner">
       <a href="index.html">
         <img
           src="imagens-aua4/img-logo.png"
@@ -16,7 +19,7 @@
           width="200px"
         />
       </a>
-      <nav>
+      <nav id="menu-principal">
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="sobre.html">Sobre</a></li>
@@ -24,22 +27,25 @@
           <li><a href="contato.html">Contato</a></li>
         </ul>
       </nav>
+      </div>
+       </div>
     </header>
 
     <section id="produtos">
+      <div class="container">
       <h1>produtos</h1>
 
       <div class="item-produto">
         <img src="imagens-aua4/produto-racao.png" alt="" />
         <h3>Ração</h3>
         <p>A ração é um dos produtos mais importantes em um pet shop.</p>
-        <p>R$100,00</p>
+        <p class="preco">R$100,00</p>
       </div>
       <div class="item-produto">
         <img src="imagens-aua4/produto-coleira.png" alt="" />
         <h3>Coleiras e guias</h3>
         <p>As coleiras e guias sao essenciaispara cães.</p>
-        <p>R$50,00</p>
+        <p class="preco">R$50,00</p>
       </div>
       <div class="item-produto">
         <img src="imagens-aua4/produto-brinquedo.png" alt="" />
@@ -48,7 +54,7 @@
           Os brinquedos são importantes para manter os animais de estimação
           entretidos e estimulados.
         </p>
-        <p>R$150,00</p>
+        <p class="preco">R$150,00</p>
       </div>
       <div class="item-produto">
         <img src="imagens-aua4/produto-banho.png" alt="" />
@@ -57,19 +63,22 @@
           Os produtos de higiene e cuidados são indispensáveis para manter os
           animais saudáveis e limpos.
         </p>
-        <p>R$30,00</p>
+        <p class="preco">R$30,00</p>
+      </div>
       </div>
     </section>
 
     <footer>
+       <div class="container">
       <p>Todos os direitos reservados &copy;</p>
-      <div>
+      <div id="midias-sociais">
         <a href="https://www.instagram.com/" target="_blank">
           <img src="imagens-aua4/icon-instagram.png" alt="instagram" />
         </a>
         <a href="https://wa.me/5533988776655" target="_blank">
           <img src="imagens-aua4/icon-whatsapp.png" alt="Fale conosco" />
         </a>
+      </div>
       </div>
     </footer>
   </body>
