@@ -161,7 +161,8 @@ h1 {
 #botao:hover {
   background-color: #2e210f;
   border: solid 2px #e8a200;
-  transition: all linear 0.5s;
+  transition: linear 0.5s;
+  color: #e8a200;
 }
 #saiba-mais {
   background-color: #e8a200;
@@ -197,57 +198,53 @@ h1 {
   margin: auto;
   margin-bottom: 30px;
 }
-#contato form{
-    width: 550px;
-    margin: auto;
-
+#contato form {
+  width: 550px;
+  margin: auto;
 }
-#contato form label, #contato form input{
-    display: block;
-    color: #2e210f;
+#contato form label,
+#contato form input {
+  display: block;
+  color: #2e210f;
 }
-#contato form input, #contato form textarea{
-    width: 90%;
-    padding: 5px;
-
+#contato form input,
+#contato form textarea {
+  width: 90%;
+  padding: 5px;
 }
-#contato form label{
-    margin-top: 20px;
+#contato form label {
+  margin-top: 20px;
 }
-#contato form #enviar{
-    width: 150px;
-    padding: 6px 30px;
-    font-weight: bold;
-    color: #2e210f;
-    font-size: 18px;
-    background-color: #e8a200;
-    border: solid 2px #2e210f;
-    border-radius: 30px;
-    float: right;
-    margin-right: 40px;
-    margin-top: 20px;
-    cursor: pointer;
+#contato form #enviar {
+  width: 150px;
+  padding: 6px 30px;
+  font-weight: bold;
+  color: #2e210f;
+  font-size: 18px;
+  background-color: #e8a200;
+  border: solid 2px #2e210f;
+  border-radius: 30px;
+  float: right;
+  margin-right: 40px;
+  margin-top: 20px;
+  cursor: pointer;
 }
-#contato form #enviar:hover{
-    background-color: #2e210f;
-    color: #e8a200;
-    transition: all linear 0.3s;
-
+#contato form #enviar:hover {
+  background-color: #2e210f;
+  color: #e8a200;
+  transition: all linear 0.3s;
 }
-#sobre #texto{
-    width: 500px;
-    float: left;
-    margin-right: 20px;
+#sobre #texto {
+  width: 500px;
+  float: left;
+  margin-right: 20px;
 }
-#sobre p{
-    margin-top: ;
+#sobre p {
+  margin-top: ;
 }
-.marrom{
-    color: #2e210f;
+.marrom {
+  color: #2e210f;
 }
-.amarelo{
-    color: #e8a200;
+.amarelo {
+  color: #e8a200;
 }
-
-
-
